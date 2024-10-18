@@ -1,4 +1,4 @@
-package org.example.Model;
+package org.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,8 +16,9 @@ public class KingDom {
         for (Country country : countries) {
             totalPower += country.getTotalSoldiers();
         }
-        return totalPower + soldiersOnEdges;
+        return totalPower ;
     }
+
 
     public String report() {
         StringBuilder report = new StringBuilder();

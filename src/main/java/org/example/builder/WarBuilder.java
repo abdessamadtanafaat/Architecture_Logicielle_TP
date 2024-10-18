@@ -1,7 +1,7 @@
-package org.example.Builder;
+package org.example.builder;
 
-import org.example.Model.KingDom;
-import org.example.Model.War;
+import org.example.model.KingDom;
+import org.example.model.War;
 import java.util.ArrayList;
 import java.util.List;
 

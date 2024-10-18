@@ -1,7 +1,7 @@
-import org.example.Builder.KingDomBuilder;
-import org.example.Builder.WarBuilder;
-import org.example.Model.KingDom;
-import org.example.Model.War;
+import org.example.builder.KingDomBuilder;
+import org.example.builder.WarBuilder;
+import org.example.model.KingDom;
+import org.example.model.War;
 import org.junit.Assert;
 import org.junit.Test;
 
