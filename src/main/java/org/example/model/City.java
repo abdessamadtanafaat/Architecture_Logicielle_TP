@@ -1,16 +1,22 @@
 package org.example.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class City {
+
     private int soldiers;
     private int citizens;
 
-    public int getSoldiers() {
-        return soldiers; // Ensure this returns the right value
+    @Override
+    public String toString() {
+        return soldiers+"-"+citizens ;
     }
 
 }
